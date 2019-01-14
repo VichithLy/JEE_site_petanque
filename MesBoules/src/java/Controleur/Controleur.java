@@ -36,7 +36,7 @@ public class Controleur extends HttpServlet {
         String todo = request.getParameter("todo");
         RequestDispatcher rd =null;
         Action ac = null;
-        String vue="Accueil.jsp";
+        String vue="Accueil.jsp";git pull
         switch(todo){
             
             case "connexion" :
