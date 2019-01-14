@@ -12,6 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+         <form method ="post" action="Controleur">
+              <input type="hidden" name ="todo" value="Connexion"/>
+            <input type="text" name="identifiant" placeholder="identifiant"/>
+            <br/>
+            <input type="password" name ="mdp" placeholder="mot de passe" />
+            <br/>
+            <input type ="submit" value ="Connexion"/>
+       
+        </form>
     </body>
 </html>
