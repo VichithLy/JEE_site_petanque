@@ -4,14 +4,14 @@
     Author     : p1700906
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%--<%@page contentType="text/html" pageEncoding="UTF-8"%>--%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <%@ include file="header_co.jsp"%>
+   <%--  <%@ include file="header_co.jsp"%>--%>
     <body>
          <form method ="post" action="Controleur">
               <input type="hidden" name ="todo" value="Connexion"/>
@@ -23,5 +23,5 @@
        
         </form>
     </body>
-    <%@ include file="footer.jsp"%>
+  <%-- <%@ include file="footer.jsp"%>--%>
 </html>
