@@ -13,7 +13,7 @@
     </head>
    <%--  <%@ include file="header_co.jsp"%>--%>
     <body>
-         <form method ="post" action="Controleur">
+         <form method ="post">
               <input type="hidden" name ="todo" value="Connexion"/>
             <input type="text" name="identifiant" placeholder="identifiant"/>
             <br/>
