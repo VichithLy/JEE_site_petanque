@@ -3,11 +3,43 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/F:/ProjetJEE/SiteBoules/web/resources/css/headfoot.css</file>
             <file>file:/F:/ProjetJEE/SiteBoules/web/footer.jsp</file>
             <file>file:/F:/ProjetJEE/SiteBoules/web/Connexion.jsp</file>
             <file>file:/F:/ProjetJEE/SiteBoules/web/header.jsp</file>
             <file>file:/F:/ProjetJEE/SiteBoules/web/config.jsp</file>
+=======
+<<<<<<< HEAD
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/DAO/OracleDataSourceDAO.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/Accueil.jsp</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/WEB-INF/glassfish-web.xml</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/DAO/CoUtilisateur.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/Connexion.jsp</file>
+=======
+<<<<<<< HEAD
+            <file>file://teraetu/homeetu/p1619278/Desktop/ProjetJEE/SiteBoules/src/java/Controleur/Controleur.java</file>
+            <file>file://teraetu/homeetu/p1619278/Desktop/ProjetJEE/SiteBoules/web/WEB-INF/Accueil.jsp</file>
+            <file>file://teraetu/homeetu/p1619278/Desktop/ProjetJEE/SiteBoules/src/java/Controleur/Action/Action.java</file>
+            <file>file://teraetu/homeetu/p1619278/Desktop/ProjetJEE/SiteBoules/web/WEB-INF/Connexion.jsp</file>
+=======
+>>>>>>> 6d3bf27cb3d833fce9ac22020797d4f559580c59
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/metierLogique/ConnexionBaseDonnee.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/DAO/UtilisateurDAO.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/Controleur/Action/actionConnexion.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/metierLogique/Utilisateur.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/metierLogique/VerificationCo.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/META-INF/context.xml</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/index.html</file>
+<<<<<<< HEAD
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/DAO/AccesDonnée.java</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/Planning.jsp</file>
+=======
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/web/WEB-INF/Connexion.jsp</file>
+            <file>file:/Z:/Mes%20documents/Cours%20S3/JAVA/ProjetJEE/SiteBoules/src/java/Controleur/Action/AccesDonnée.java</file>
+>>>>>>> f5a8ef633f0eb33b98d816723b097f2b674a3813
+>>>>>>> 6d3bf27cb3d833fce9ac22020797d4f559580c59
+>>>>>>> e2f9e5ddb3d219f02a8900f5b74529351b9824e7
         </group>
     </open-files>
 </project-private>
