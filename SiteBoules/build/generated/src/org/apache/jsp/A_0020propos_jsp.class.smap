@@ -1,0 +1,22 @@
+SMAP
+A_0020propos_jsp.java
+JSP
+*S JSP
+*F
++ 0 A propos.jsp
+A propos.jsp
++ 1 config.jsp
+config.jsp
++ 2 header_co.jsp
+header_co.jsp
++ 3 footer.jsp
+footer.jsp
+*L
+5,7:51
+5#1,10:58
+11#0,10:67
+5#2,39:77
+20#0,8:115
+5#3,8:123
+27#0,11:131
+*E

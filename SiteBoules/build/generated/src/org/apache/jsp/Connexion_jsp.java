@@ -111,7 +111,7 @@ public final class Connexion_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <main role=\"main\" class=\"container\">\r\n");
       out.write("            \r\n");
       out.write("            <!-- Formulaire de connexion -->\r\n");
-      out.write("            <form method =\"post\">\r\n");
+      out.write("            <form method =\"post\" action=\"Controleur\">\r\n");
       out.write("                \r\n");
       out.write("                <div class=\"form-group\"> \r\n");
       out.write("                    \r\n");
