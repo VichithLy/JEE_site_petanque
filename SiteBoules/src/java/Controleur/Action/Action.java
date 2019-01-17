@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  *
- * @author p1619278
+ * @author p1700906
  */
 public abstract class Action {
-       public String Execute(HttpServletRequest request){
-           return null;
-        };
-    
+    public void execute(HttpServletRequest request)
+    {
+        
+    }
 }

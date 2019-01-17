@@ -24,7 +24,7 @@
         <main role="main" class="container">
             
             <!-- Formulaire de connexion -->
-            <form method ="post">
+            <form method ="post" action="Controleur">
                 
                 <div class="form-group"> 
                     

@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/header.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/src/java/metierLogique/Utilisateur.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/src/java/Controleur/Action/Action.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/resources/css/bootstrap.css</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/header_co.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/resources/css/bootstrap.min.css</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/src/java/metierLogique/VerificationCo.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/Accueil.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/src/java/Controleur/Action/actionConnexion.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/SiteBoules/web/Connexion.jsp</file>
+        </group>
     </open-files>
 </project-private>
