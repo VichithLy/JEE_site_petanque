@@ -93,6 +93,12 @@ code {
     margin-left: 20%;
 }
 
+/* Error message
+-------------------------------------------------- */
+div.alert.alert-secondary {
+    margin-top: 80px;
+    
+}
 
 
 /* Animation

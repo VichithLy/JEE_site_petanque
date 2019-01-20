@@ -27,7 +27,7 @@ public class actionConnexion extends Action {
       }
        else
       { 
-        return "Connexion.jsp";
+        return "erreurMdp.jsp";
       }
     }
     
