@@ -1,4 +1,3 @@
-/*
 package metierLogique;
 
 
@@ -16,32 +15,28 @@ import java.util.logging.Logger;
 
 public class VerifListeMatch {
     
-    public boolean getVerifMatch(ArrayList<Match> listeMatch) throws SQLException
+    public MatchDAO connexionMatch()throws SQLException
     {
-        if(listeMatch!=null)
-        {
-            return true; 
-        }
-        return false;
+        OracleDataSourceDAO ds = OracleDataSourceDAO.getOracleDataSourceDAO();
+        Connection c = ds.getConnection();
+        MatchDAO match=new MatchDAO();
+        match.setDs(ds);
+        match.setC(c);
+        
+        return match;
     }
     
-    public boolean verificationMatch()
-    {
-        boolean res;
-        ArrayList<Match> md=new ArrayList<Match>();
-        md.getMatch();
+    public ArrayList<Match> verifMatch(){
         
-        try {
-            res = getVerifMatch(md);
+        ArrayList<Match> liste=new ArrayList<Match>();
+        MatchDAO m;
+        try {           
+            m=connexionMatch();
+            liste = m.getMatch();
         } catch (SQLException ex) {
-            Logger.getLogger(VerificationCo.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(VerifListeMatch.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-       boolean rep = user.getconnexion(identifiant,password);
-       
-     return rep;
+         
+        return liste;
     }
-    
-    
 }
-*/

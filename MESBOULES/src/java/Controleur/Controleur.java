@@ -7,6 +7,7 @@ package Controleur;
 
 import Controleur.Action.Action;
 import Controleur.Action.actionConnexion;
+import Controleur.Action.actionMatch;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -58,7 +59,8 @@ public class Controleur extends HttpServlet {
                 break;
                 
             case "Planning":
-                vue= "Planning.jsp";
+                ac = new actionMatch();
+                vue= ac.execute(request);
                 rd=request.getRequestDispatcher(vue);
                 break;
                 

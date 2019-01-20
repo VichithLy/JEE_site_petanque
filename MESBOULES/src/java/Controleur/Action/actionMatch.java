@@ -1,29 +1,23 @@
 package Controleur.Action;
 
 import DAO.MatchDAO;
+import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.http.HttpServletRequest;
 import metierLogique.Match;
+import metierLogique.VerifListeMatch;
 
 public class actionMatch extends Action{
     
     @Override
     public String execute(HttpServletRequest request)
     {
-        MatchDAO m=new MatchDAO();
-        ArrayList<Match> lm = m.getMatch();
+        VerifListeMatch vlm = new VerifListeMatch();
         
-        for(Match temp : lm) 
-        {
-            request.setAttribute("id", temp.getId());
-            request.setAttribute("heureDebut", temp.getHeureDebut());
-            request.setAttribute("heureFin", temp.getHeureFin());
-            request.setAttribute("description", temp.getDescription());
-            request.setAttribute("lieu", temp.getLieu());
-            request.setAttribute("equipe1", temp.getEquipe1());
-            request.setAttribute("equipe2", temp.getEquipe2());
-        }
-    
+        request.setAttribute("match", vlm.verifMatch());
+        
         return "Planning.jsp";
     }
     

@@ -4,6 +4,11 @@
     Author     : p1700906
 --%>
 
+<%@page import="java.util.List"%>
+<%@page import="DAO.MatchDAO"%>
+<%@page import="java.util.Iterator"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="metierLogique.Match"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -32,6 +37,22 @@
         
         <main role="main" class="container">
             <h1>Hello World!</h1>
+            
+        <% 
+            
+            List<Match> lm = (List)request.getAttribute("match");
+            out.println(lm.size());
+            for(Match f : lm) {
+                
+        %>   
+        
+                <%= f.getId()%>
+                <%= f.getNomMatch()%>
+                <%= f.getDescription()%>
+                  
+        <% } %>
+        
+        
         </main>
         
         <footer class="footer">

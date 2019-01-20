@@ -44,13 +44,13 @@ public class MatchDAO {
                 while(resultat.next())
                 {
                     int id=resultat.getInt(1);
-                    String nomMatch=resultat.getString("nomMatch");
-                    Date heureDebut=resultat.getDate("horaire_debut");
-                    Date heureFin=resultat.getDate("horaire_fin");
-                    String equipe1=resultat.getString("adversaire_1");
-                    String equipe2=resultat.getString("adversaire_2");
-                    String lieu=resultat.getString("lieu");
-                    String description=resultat.getString("description");  
+                    String nomMatch=resultat.getString("NOMMATCH");
+                    Date heureDebut=resultat.getDate("HORAIRE_DEBUT");
+                    Date heureFin=resultat.getDate("HORAIRE_FIN");
+                    String equipe1=resultat.getString("ADVERSAIRE_1");
+                    String equipe2=resultat.getString("ADVERSAIRE_2");
+                    String lieu=resultat.getString("LIEU");
+                    String description=resultat.getString("DESCRIPTION");  
                     
                     listeMatch.add(new Match(id, nomMatch, heureDebut, heureFin, equipe1, equipe2, lieu, description));
                 }
