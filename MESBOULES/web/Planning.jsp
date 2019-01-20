@@ -17,7 +17,18 @@
     </head>
     
     <body>
-        <%@include file="header_co.jsp"%>
+          <% String header;
+     if(  session.getAttribute("nom") != null )
+     {
+         header = "header_co.jsp";
+     }
+     else 
+     {
+         header="header.jsp";
+     }
+     %> 
+     <jsp:include page="<%=header%>"/>
+ 
         
         <main role="main" class="container">
             <h1>Hello World!</h1>

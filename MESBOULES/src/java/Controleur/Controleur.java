@@ -47,11 +47,31 @@ public class Controleur extends HttpServlet {
                 rd = request.getRequestDispatcher(vue);
                 break;
                 
-            case "accueil" :
-                vue = "acceuil.jsp";
+            case "Login":
+                vue= "Connexion.jsp";
+                rd = request.getRequestDispatcher(vue);
+                break;
+                
+            case "Accueil" :
+                vue = "Accueil.jsp";
                 rd = request.getRequestDispatcher(vue); 
                 break;
                 
+            case "Planning":
+                vue= "Planning.jsp";
+                rd=request.getRequestDispatcher(vue);
+                break;
+                
+            case "A_propos":
+                vue="A_propos.jsp";
+                rd = request.getRequestDispatcher(vue);
+                break;
+                
+            case "Actu":
+                vue="Actualite.jsp";
+                rd = request.getRequestDispatcher(vue);
+                break;
+
             default :
                 rd = request.getRequestDispatcher(vue);
                 

@@ -19,16 +19,16 @@
 	<div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="Controleur?todo=Accueil">Accueil<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Actualités</a>
+                      <a class="nav-link" href="Controleur?todo=Actu">Actualités</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Planification de matchs</a>
+                      <a class="nav-link" href="Controleur?todo=Planning">Planification de matchs</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">À propos</a>
+                      <a class="nav-link" href="Controleur?todo=A_propos">À propos</a>
                     </li>
             </ul>
             
