@@ -7,6 +7,7 @@ package Controleur;
 
 import Controleur.Action.Action;
 import Controleur.Action.actionConnexion;
+import Controleur.Action.deconnexion;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -71,7 +72,11 @@ public class Controleur extends HttpServlet {
                 vue="Actualite.jsp";
                 rd = request.getRequestDispatcher(vue);
                 break;
-
+            case "Deco":
+                ac= new deconnexion();
+                vue=ac.execute(request);
+                rd = request.getRequestDispatcher(vue);
+                
             default :
                 rd = request.getRequestDispatcher(vue);
                 

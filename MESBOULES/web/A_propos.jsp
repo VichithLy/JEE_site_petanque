@@ -31,7 +31,9 @@
    
         
         <main role="main" class="container">
-            <h1>Hello World!</h1>
+            <p> Salut a tous les AMIS, nous sommes un petit groupe d'amis qui sommes fan de boules.</p>
+            <br>
+            <p>Nous avons donc décidé de créer ce site à fin de partager nos plus bells boules ainsi que de réaliser des matchs pour le FUN</p>
         </main>
         
         <footer class="footer">

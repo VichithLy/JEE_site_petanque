@@ -6,14 +6,15 @@
 package Controleur.Action;
 import javax.servlet.http.HttpServletRequest;
 /**
- *
- * @author Sorrenti.J
+ * Resumé :
+ * Recupère la variable de session nom et l'enleve,
+ * Afin de faire la déconnexion
  */
  public class deconnexion extends Action {
     public String execute(HttpServletRequest request)
     {
-        
-        
+       
+    request.getSession().removeAttribute("nom"); // Deconnexion
         return "Accueil.jsp";
     }
 
