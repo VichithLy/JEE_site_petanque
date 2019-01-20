@@ -34,7 +34,7 @@
             
             <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Déconnexion</a>
+                    <a class="nav-link" href="Controleur?todo=Deco">Déconnexion</a>
                   </li>
             </ul>
 	  

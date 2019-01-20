@@ -17,8 +17,9 @@ import metierLogique.Match;
 import oracle.jdbc.pool.OracleDataSource;
 
 /**
+ * Résume : 
+ * 
  *
- * @author LY Vichith
  */
 public class MatchDAO {
     

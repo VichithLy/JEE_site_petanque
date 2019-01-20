@@ -6,8 +6,10 @@
 package metierLogique;
 
 /**
- *
- * @author Sorrenti.J
+ *Résumé :
+ * La classe utilisateur nous sert a crée des utilisateurs 
+ * On peut également s'en servir afin de crée un utilisateur dans la base de donnée
+ * 
  */
 public class Utilisateur {
     private String identifiant;

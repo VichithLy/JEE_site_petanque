@@ -14,8 +14,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
- * @author p1700906
+ * Résumé : 
+ * Nous connect a la base de donnée.
+ * Retourne un boolean
+ * 
+ * 
+ * 
  */
 public class VerificationCo extends Utilisateur{
 
