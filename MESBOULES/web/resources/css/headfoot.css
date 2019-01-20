@@ -11,7 +11,7 @@
     z-index:100;
     
     transform-origin: 50% 50%;
-    -webkit-animation: rotating 30s linear infinite;
+    -webkit-animation: rotating 5s linear infinite;
 }
 
 .logo:hover{
@@ -25,7 +25,6 @@ nav {
 }
 
 nav.navbar {
-    margin-top: 60px;
     height : 100px;
 }
 
@@ -46,10 +45,8 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 60px;
-  padding-right: 15px;
-  padding-left: 15px;
   text-align: center;
   background-color: #F8F8F8;
   
@@ -93,6 +90,14 @@ code {
     margin-left: 20%;
 }
 
+/* Table
+-------------------------------------------------- */
+table.table.table-hover {
+    margin-bottom: 200px;
+}
+
+
+
 /* Error message
 -------------------------------------------------- */
 div.alert.alert-secondary {
@@ -100,6 +105,9 @@ div.alert.alert-secondary {
     margin-bottom: 80px;
 }
 
+div.form-group {
+    padding-bottom : 5%;
+}
 
 /* Animation
 -------------------------------------------------- */

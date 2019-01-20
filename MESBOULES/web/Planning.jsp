@@ -22,37 +22,65 @@
     </head>
     
     <body>
-          <% String header;
-     if(  session.getAttribute("nom") != null )
-     {
-         header = "header_co.jsp";
-     }
-     else 
-     {
-         header="header.jsp";
-     }
-     %> 
-     <jsp:include page="<%=header%>"/>
+        
+        <% String header;
+        if(  session.getAttribute("nom") != null )
+        {
+            header = "header_co.jsp";
+        }
+        else 
+        {
+            header="header.jsp";
+        }
+        %> 
+        
+        <jsp:include page="<%=header%>"/>
  
         
         <main role="main" class="container">
-            <h1>Hello World!</h1>
             
-        <% 
-            
-            List<Match> lm = (List)request.getAttribute("match");
-            out.println(lm.size());
-            for(Match f : lm) {
+            <div class="h1">
+                <h1>Planning des matchs</h1>
+                <br>
+            </div>
+        
+            <table class="table table-hover table-fixed">
+                <thead>
+                    <tr>
+                      <th>Intitulé du match</th>
+                      <th>Horaire de début</th>
+                      <th>Horaire de fin</th>
+                      <th>Lieu</th>
+                      <th>Equipe 1</th>
+                      <th>Equipe 2</th>
+                      <th>Description</th>  
+                    </tr>
+                    
+                    <% 
+                        List<Match> lm = (List)request.getAttribute("match");
+                        for(Match f : lm) {
+                    %>   
+
+                </thead>
                 
-        %>   
-        
-                <%= f.getId()%>
-                <%= f.getNomMatch()%>
-                <%= f.getDescription()%>
-                  
-        <% } %>
-        
-        
+                <tbody> 
+                    <tr> 
+                        <td><%= f.getNomMatch()%></td>
+                        <td><%= f.getHeureDebut()%></td>
+                        <td><%= f.getHeureFin()%></td>
+                        <td><%= f.getEquipe1()%></td>
+                        <td><%= f.getLieu()%></td>
+                        <td><%= f.getDescription()%></td>
+                        <td><%= f.getEquipe2()%></td>
+                        
+                        
+
+                        <% } %>
+                    </tr>
+                
+                </tbody>
+            </table>
+                
         </main>
         
         <footer class="footer">

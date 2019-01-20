@@ -30,10 +30,12 @@
      <jsp:include page="<%=header%>"/>
    
         
-        <main role="main" class="container">
-            <p> Salut a tous les AMIS, nous sommes un petit groupe d'amis qui sommes fan de boules.</p>
+        <main role="main" class="container"> 
             <br>
-            <p>Nous avons donc décidé de créer ce site à fin de partager nos plus bells boules ainsi que de réaliser des matchs pour le FUN</p>
+            <p> Ce site a été créé par des amoureux de la pétanque et de l'apéro.</p>
+            <br>
+            <p> Grâce à notre site, vous pourrez organiser des matchs de pétanque avec vos amis et tout cela GRATUITEMENT (ramenez le saucissons quand même :p). </p>
+            <br>
         </main>
         
         <footer class="footer">

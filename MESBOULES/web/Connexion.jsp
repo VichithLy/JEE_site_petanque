@@ -10,7 +10,6 @@
 <html lang="fr">
     <head>
         <%@include file="config.jsp"%>
-        <%@include file="config.jsp"%>  
         
         <title>Connexion</title>
         
@@ -22,6 +21,10 @@
     <body>
         <%@include file="header.jsp"%>
         
+        <div class="h1">
+            <br>
+            <h1>Connexion</h1>
+        </div>
         <!-- Begin page content -->
         <main role="main" class="container">
             

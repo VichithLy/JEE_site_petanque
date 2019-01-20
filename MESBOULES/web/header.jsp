@@ -8,7 +8,7 @@
 
 <!-- Fixed navbar -->
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-light ">
 	<a class="navbar-brand" href="#">
             <img src="resources/images/boulepetanque3.png" class="logo" alt="logo">
         </a>
@@ -25,7 +25,7 @@
                       <a class="nav-link" href="Controleur?todo=Actu">Actualités</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="Controleur?todo=Planning">Planification de matchs</a>
+                      <a class="nav-link" href="Controleur?todo=Planning">Planning des matchs</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="Controleur?todo=A_propos">À propos</a>

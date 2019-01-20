@@ -37,11 +37,11 @@
              
                if(session.getAttribute("nom")!=null)
                {
-                   out.print("Hello "+session.getAttribute("nom"));
+                   out.print("<h1>" +"Bien le salut à toi "+session.getAttribute("nom")+" !"+ "</h1>" );
                }
                else
                {
-                   out.print("Bonjour,bienvenue sur notre dédié aux Boules !");
+                   out.print("<h1>" + "Bonjour et bienvenue sur notre dédié aux Boules !" + "</h1>");
                }
            
            %>
