@@ -9,11 +9,9 @@
 
 <html lang="fr">
     <head>
-<<<<<<< HEAD
         <%@include file="config.jsp"%>
-=======
         <%@include file="config.jsp"%>  
->>>>>>> 3f82f9a7f483041cba8e0e49c36690cc83b34db5
+        
         <title>Connexion</title>
         
         <!-- Custom styles for this template -->

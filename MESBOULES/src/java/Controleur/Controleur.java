@@ -7,11 +7,8 @@ package Controleur;
 
 import Controleur.Action.Action;
 import Controleur.Action.actionConnexion;
-<<<<<<< HEAD
 import Controleur.Action.actionMatch;
-=======
 import Controleur.Action.deconnexion;
->>>>>>> 3f82f9a7f483041cba8e0e49c36690cc83b34db5
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
