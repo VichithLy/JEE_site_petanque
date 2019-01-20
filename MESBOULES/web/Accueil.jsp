@@ -41,7 +41,7 @@
                }
                else
                {
-                   out.print("Bonjour et bienvenue sur notre dédié au Boules !");
+                   out.print("Bonjour,bienvenue sur notre dédié aux Boules !");
                }
            
            %>

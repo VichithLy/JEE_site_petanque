@@ -50,17 +50,11 @@ public class MatchDAO {
                     String equipe1=resultat.getString("adversaire_1");
                     String equipe2=resultat.getString("adversaire_2");
                     String lieu=resultat.getString("lieu");
-                    String description=resultat.getString("description");    
+                    String description=resultat.getString("description");  
+                    
+                    listeMatch.add(new Match(id, nomMatch, heureDebut, heureFin, equipe1, equipe2, lieu, description));
                 }
-                
-                if(resultat.getInt(1)== 1)
-                {
-                    correct = true;
-                }
-                else
-                {
-                     correct = false;
-                }
+                               
                 if (requete != null) requete.close();
                 if (resultat != null) resultat.close();
                 if (c != null) c.close(); 
@@ -68,7 +62,7 @@ public class MatchDAO {
             } catch (SQLException ex) {
                 Logger.getLogger(UtilisateurDAO.class.getName()).log(Level.SEVERE, null, ex);
             }
-    return correct;
+            
+    return listeMatch;
     }
-   
 }

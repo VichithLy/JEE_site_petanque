@@ -9,7 +9,7 @@
 
 <html lang="fr">
     <head>
-        <%@include file="config.jsp"%>
+        <%@include file="config.jsp"%> ? 
         <title>Connexion</title>
         
         <!-- Custom styles for this template -->
