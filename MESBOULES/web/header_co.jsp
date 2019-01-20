@@ -8,7 +8,7 @@
 
 <!-- Fixed navbar -->
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-light">
 	<a class="navbar-brand" href="#">
             <img src="resources/images/boulepetanque3.png" class="logo" alt="logo">
         </a>

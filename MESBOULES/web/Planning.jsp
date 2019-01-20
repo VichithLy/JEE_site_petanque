@@ -43,6 +43,13 @@
                 <h1>Planning des matchs</h1>
                 <br>
             </div>
+            
+            <div class="h3">
+                <p><small>Veuillez contacter notre administrateur Jean-Roger afin de planifier un match :</small></p>
+                <p><small>Son adresse MSN : <strong>DiddlDora@hotmail.fr</strong></small></p>
+                <br>
+                <br>
+            </div>
         
             <table class="table table-hover table-fixed">
                 <thead>

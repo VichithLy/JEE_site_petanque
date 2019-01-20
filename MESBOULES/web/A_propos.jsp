@@ -36,6 +36,7 @@
             <br>
             <p> Grâce à notre site, vous pourrez organiser des matchs de pétanque avec vos amis et tout cela GRATUITEMENT (ramenez le saucissons quand même :p). </p>
             <br>
+            <img src="resources/images/saucisson.GIF" class="saucisson" alt="boules">
         </main>
         
         <footer class="footer">

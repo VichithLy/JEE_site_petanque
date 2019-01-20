@@ -37,14 +37,16 @@
              
                if(session.getAttribute("nom")!=null)
                {
-                   out.print("<h1>" +"Bien le salut à toi "+session.getAttribute("nom")+" !"+ "</h1>" );
+                   out.print("<h1>" +"Bah alors, ça fait longtemps qu'on t'a plus vu "+"<strong>"+session.getAttribute("nom")+"</strong>"+" !"+ "</h1>" );
                }
                else
                {
-                   out.print("<h1>" + "Bonjour et bienvenue sur notre dédié aux Boules !" + "</h1>");
+                   out.print("<h1>" + "Bonjour et bienvenue sur notre site dédié aux Boules !" + "</h1>");
                }
            
            %>
+           
+           <img src="resources/images/gifboules.gif" class="boules" alt="boules">
         </main>
         
         <footer class="footer">

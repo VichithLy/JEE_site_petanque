@@ -33,7 +33,40 @@
         <main role="main" class="container">
             <div class="h1">
                 <h1>Actualités</h1>
-            </div>    
+            </div>
+            
+            <br>
+            
+            <table class="table table-hover">
+                
+            <thead>
+                <tr>
+                  <th id=date scope="col">Lundi 21 janvier 2019</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <p>Le site MesBoules.com est devenu aujourd'hui le premier site visité de France. </p>
+                        <p>Selon M.Boule, le fondateur, la surprise est grande mais surtout logique car la pétanque fédère le peuple.</p>
+                </th>
+                
+                </tr>
+                <tr>
+
+                </tr>
+                <tr>
+
+                </tr>
+            </tbody>
+          </table>
+            
+            
+            
+            
+            
+            
         </main>
      
     <footer class="footer">

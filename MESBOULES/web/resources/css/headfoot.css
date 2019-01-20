@@ -82,6 +82,17 @@ code {
   font-size: 80%;
 }
 
+img.boules {
+    height: 300px;
+    width: auto;
+}
+
+img.saucisson {
+    height: 200px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
 /* Form
 -------------------------------------------------- */
 
@@ -96,6 +107,9 @@ table.table.table-hover {
     margin-bottom: 200px;
 }
 
+#date {
+    background-color: silver;
+}
 
 
 /* Error message

@@ -21,9 +21,8 @@
     <body>
         <%@include file="header.jsp"%>
         
-        <div class="h1">
-            <br>
-            <h1>Connexion</h1>
+        <div class="h1">          
+            <small>Connexion</small>
         </div>
         <!-- Begin page content -->
         <main role="main" class="container">
