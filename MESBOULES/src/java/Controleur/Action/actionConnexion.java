@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author p1700906
  */
 public class actionConnexion extends Action {
+    @Override
     public String execute(HttpServletRequest request)
     {
        String identifiant = request.getParameter("identifiant");
@@ -30,6 +31,5 @@ public class actionConnexion extends Action {
         return "erreurMdp.jsp";
       }
     }
-    
-    
+  
 }

@@ -1,40 +1,38 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package metierLogique;
 
+
+
+
+import DAO.MatchDAO;
 import DAO.OracleDataSourceDAO;
 import DAO.UtilisateurDAO;
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author LY Vichith
- */
+
 public class VerifListeMatch {
     
-    public UtilisateurDAO connexion()throws SQLException
+    public boolean getVerifMatch(ArrayList<Match> listeMatch) throws SQLException
     {
-        OracleDataSourceDAO ds = OracleDataSourceDAO.getOracleDataSourceDAO();
-        Connection c = ds.getConnection();
-        UtilisateurDAO user = new UtilisateurDAO();
-        user.setDs(ds);
-        user.setC(c);
-        return user;
+        if(listeMatch!=null)
+        {
+            return true; 
+        }
+        return false;
     }
-    public boolean verification(Utilisateur u1)
+    
+    public boolean verificationMatch()
     {
+        boolean res;
+        ArrayList<Match> md=new ArrayList<Match>();
+        md.getMatch();
         
-       String identifiant = u1.getIdentifiant();
-       String password = u1.getPassword();
-       UtilisateurDAO user = null;
         try {
-            user = connexion();
+            res = getVerifMatch(md);
         } catch (SQLException ex) {
             Logger.getLogger(VerificationCo.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -46,3 +44,4 @@ public class VerifListeMatch {
     
     
 }
+*/
