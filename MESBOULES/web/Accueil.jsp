@@ -28,7 +28,7 @@
                }
                else
                {
-                   out.print("Bonjour bienvenu sur notre site de boules");
+                   out.print("Bonjour et bienvenue sur notre dédié au Boules !");
                }
            
            %>

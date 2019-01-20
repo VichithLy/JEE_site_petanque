@@ -6,26 +6,25 @@
 package DAO;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.activation.DataSource;
-import java.sql.Connection;
-import javax.activation.DataSource;
+import metierLogique.Match;
 import oracle.jdbc.pool.OracleDataSource;
 
 /**
  *
- * @author p1700906
+ * @author LY Vichith
  */
-public class UtilisateurDAO {
+public class MatchDAO {
     
     OracleDataSource ds;
-    Connection c;
+    Connection c; 
+    ArrayList<Match> listeMatch = new ArrayList<Match>();
     
     public void setDs(OracleDataSource ds) {
         this.ds = ds;
@@ -35,16 +34,25 @@ public class UtilisateurDAO {
         this.c = c;
     }
     
-    public boolean getconnexion(String login, String mdp) {
+    public ArrayList<Match> getMatch() {
         
-        boolean correct= true;
-        
-           
             try {
                 Statement requete;
                 requete = c.createStatement();      
-                ResultSet resultat = requete.executeQuery("select count(*) from user_account where identifiant ='"+login+"' and password = '"+mdp+"'"); 
-                resultat.next();
+                ResultSet resultat = requete.executeQuery("select * from match"); 
+                
+                while(resultat.next())
+                {
+                    int id=resultat.getInt(1);
+                    String nomMatch=resultat.getString("nomMatch");
+                    Date heureDebut=resultat.getDate("horaire_debut");
+                    Date heureFin=resultat.getDate("horaire_fin");
+                    String equipe1=resultat.getString("adversaire_1");
+                    String equipe2=resultat.getString("adversaire_2");
+                    String lieu=resultat.getString("lieu");
+                    String description=resultat.getString("description");    
+                }
+                
                 if(resultat.getInt(1)== 1)
                 {
                     correct = true;
@@ -62,17 +70,5 @@ public class UtilisateurDAO {
             }
     return correct;
     }
-
-    /*public void setDataSource(OracleDataSource dataSource) {
-       
-     this.ds = dataSource;
-        
-        
-    }
-
-    public void setConnection(Connection co) {
-        
-     this.c = co;
-        
-    }*/
+   
 }
