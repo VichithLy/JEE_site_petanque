@@ -8,14 +8,24 @@
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/header_co.jsp</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/Connexion.jsp</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/DAO/OracleDataSourceDAO.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/DAO/MatchDAO.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/Controleur/Action/deconnexion.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/WEB-INF/glassfish-web.xml</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/config.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/metierLogique/Match.java</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/Controleur/Controleur.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/Actualite.jsp</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/metierLogique/Utilisateur.java</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/Controleur/Action/actionConnexion.java</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/Planning.jsp</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/Match.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/Controleur/Action/Action.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/metierLogique/VerifListeMatch.java</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/conf/MANIFEST.MF</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/header.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/Accueil.jsp</file>
+            <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/src/java/Controleur/Action/actionMatch.java</file>
             <file>file:/C:/Users/sorre/Desktop/ProjetJEE-master/ProjetJEE/MESBOULES/web/A_propos.jsp</file>
         </group>
     </open-files>
